@@ -33,3 +33,9 @@ These tools provide a safe and accessible abstraction over traditional thread ma
 The results demonstrate how data-parallel workloads such as pixel processing scale efficiently with Unity’s Job System. Performance measurements inform further optimization decisions, such as tuning batch size to balance CPU overhead and data throughput or applying similar job-based techniques to other heavy image or compute operations (e.g., color histograms, texture analysis, or AI vision preprocessing).
 
 Profiling results can guide developers toward bottlenecks—whether memory transfer, cache coherence, or job scheduling—and inform adjustments to improve cache locality and minimize synchronization overhead. This experiment highlights how structured parallelism can dramatically reduce execution time for large-scale data processing tasks in real-time applications.
+
+## Images and etc
+
+![Log Screenshot](Log.png)
+
+![Game GIf](⁭LogGIF.gif)
